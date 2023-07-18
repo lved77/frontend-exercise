@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-image: url(background.gif);
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    background-attachment: fixed;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+#shipbar{
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: -18px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    padding-top: auto;
+    vertical-align: middle;
+}
+#logo {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.menu {
+    margin: auto;
+    max-width: 700px;
+    border-spacing: 8px;
+}
+.menu td{
+    transition: 0.15s;
+}
+.menu td:hover{
+    color: red;
+}
+.bottommenu {
+    margin: auto;
+    max-width: 700px;
+    border-spacing: 12px;
+    margin-bottom: 15px;
+}
+.bottommenu td{
+    transition: 0.2s;
+}
+.bottommenu td:hover{
+    color:red;
+}
+#items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1140px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.item{
+    margin: 5px;
+    flex: 1 0 25%;
+}
+.item:hover img{
+    transform: scale(1.05);
+    filter: drop-shadow(3px 3px 15px white);
+}
+.item img{
+    width: 368px;
+    height: 368px;
+    margin: auto;
+    display: block;
+    transition: 0.2s;
+}
+.name{
+    margin-top: -20px;
+    transition: 0.2s;
+}
+.name:hover{
+    color: red;
+}
+.price{
+    font-weight: 500;
+    font-size: 90%;
+    margin-top: -12px;
+    color: white
+}
